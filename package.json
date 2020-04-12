@@ -19,16 +19,9 @@
   "homepage": "https://github.com/SahilKr24/stream#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "bootstrap": "^4.4.1",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
-    "font-awesome": "^4.7.0",
-    "fontawesome": "^5.6.3",
-    "jquery": "^3.5.0",
-    "path": "^0.12.7",
-    "popper.js": "^1.16.1",
-    "require-sdk": "0.0.1-security",
-    "youtube-iframe-player": "^1.0.1"
+    "path": "^0.12.7"
   },
   "devDependencies": {}
 }

@@ -15,7 +15,16 @@ app.set('views', path.join(__dirname, 'views'))
 app.get('/',(req,res)=>{
     res.redirect('/index')
 })
-app.get('/index', (req, res) => {
+
+app.get('/index',(req,res)=>{
+    res.render('index.ejs')
+})
+
+app.post('/play', (req, res) => {
+    res.render('player.ejs', {data:req.body})
+})
+
+app.use((req, res) => {
     res.render('index.ejs')
 })
 
