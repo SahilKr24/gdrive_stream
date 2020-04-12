@@ -1,0 +1,34 @@
+{
+  "name": "gstreamplayer",
+  "version": "1.0.0",
+  "description": "takes shareable url from google drive and streams them using html5 player",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SahilKr24/stream.git"
+  },
+  "author": "SahilKr24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SahilKr24/stream/issues"
+  },
+  "homepage": "https://github.com/SahilKr24/stream#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.5.0",
+    "path": "^0.12.7",
+    "popper.js": "^1.16.1",
+    "require-sdk": "0.0.1-security",
+    "youtube-iframe-player": "^1.0.1"
+  },
+  "devDependencies": {}
+}
